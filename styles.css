@@ -45,39 +45,41 @@ header a {
   left: 939px;
   top: 10px;
 }
+
 .portfolio{
   display: flex;
   flex-direction: row;
-  align-items: center;
   padding: 10px 12px;
   position: absolute;
   width: 87px;
   height: 40px;
   left: 9px;
   top: 10px;
+  color: #344563;
 }
 .contact{
   display: flex;
   flex-direction: row;
-  align-items: center;
   padding: 10px 12px;
   position: absolute;
   width: 86px;
   height: 40px;
   left: 173px;
   top: 10px;
+  color: #344563;
 }
 .about{
   display: flex;
   flex-direction: row;
-  align-items: center;
   padding: 10px 12px;
   position: absolute;
+  color: #344563;
   width: 70px;
   height: 40px;
   left: 105px;
   top: 10px;
 }
+
 
 header {
   padding: 0 5px;
@@ -148,33 +150,6 @@ left: 1039px;
 top: 16px;
 color: #344563;
 
-}
-
-.portfolio{
-text-align: center;
-width: 63px;
-height: 20px;
-left: 12px;
-top: 10px;
-color: #344563;
-}
-
-.about{
-text-align: center;
-width: 46px;
-height: 20px;
-left: 92px;
-top: 10px;
-color: #344563;
-}
-
-.contact{
-  text-align: center;
-  width: 62px;
-height: 20px;
-left: 160px;
-top: 10px;
-  color: #344563;
 }
 
 .intro {
@@ -390,12 +365,18 @@ font-size: 19px;
   align-items: center;
   padding: 12px;
   position: absolute;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;;
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 24px;
   width: 129px;
   height: 48px;
   left: 605px;
   top: 290px;
   border-radius: 8px;
   border: 1px solid #6070FF;
+  color: #396DF2;
 
 }
 
@@ -528,6 +509,11 @@ padding-left: 6px;
   align-items: center;
   padding: 12px;
   position: absolute;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 24px;
   width: 124px;
   height: 48px;
   left: 26px;
@@ -562,24 +548,6 @@ padding-left: 6px;
   background: #FFFFFF;
   border: 1px solid #DFE1E6;
   border-radius: 24px
-}
-.card3:hover{
-  border-color: blue;
-}
-.button_card3:hover {
-  color: #6070ff;
-  background-color: white;
-  border: 1px solid blue;
-}
-
-.button_card3:active {
-  color: #fff;
-  background-color: #2230d2;
-}
-
-.button_card3:disabled {
-  color: #5e6c84;
-  background-color: #e5e5e5;
 }
 .image_project3{
   position: absolute;
@@ -648,6 +616,11 @@ padding-left: 6px;
   align-items: center;
   padding: 12px;
   position: absolute;
+  font-family:'Poppins', 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+  font-size: 19px;
   width: 124px;
   height: 48px;
   left: 605px;
@@ -656,6 +629,24 @@ padding-left: 6px;
   background: #4053FC;
   box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
+}
+.card3:hover{
+  border-color: blue;
+}
+.button_card3:hover {
+  color: #6070ff;
+  background-color: white;
+  border: 1px solid blue;
+}
+
+.button_card3:active {
+  color: #fff;
+  background-color: #2230d2;
+}
+
+.button_card3:disabled {
+  color: #5e6c84;
+  background-color: #e5e5e5;
 }
 .card4{
   width: 1186px;
@@ -669,21 +660,6 @@ padding-left: 6px;
 }
 .card4:hover{
   border-color: blue;
-}
-
-.button_card4:hover {
-  color: #fff;
-  background-color: #6070ff;
-}
-
-.button_card4:active {
-  color: #fff;
-  background-color: #2230d2;
-}
-
-.button_card4:disabled {
-  color: #5e6c84;
-  background-color: #e5e5e5;
 }
 .image_project4{
   position: absolute;
@@ -754,12 +730,33 @@ padding-left: 6px;
   align-items: center;
   padding: 12px;
   position: absolute;
+  font-family: 'Poppins','Times New Roman', Times, serif;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
   width: 124px;
   height: 48px;
+  font-size: 19px;
   left: 34px;
   top: 296px;
   border: 1px solid #6070FF;
   border-radius: 8px;
+}
+
+.button_card4:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+.button_card4:active {
+  color: #fff;
+  background-color: #2230d2;
+}
+
+.button_card4:disabled {
+  color: #5e6c84;
+  background-color: #e5e5e5;
 }
 .ellipse11{
   position: absolute;
@@ -993,10 +990,34 @@ padding-left: 6px;
   text-decoration: none;
 }
 
-.about_myself_resume:hover {
-  color: #fff;
-  background: #6070ff;
+.myresume {
+  display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+font-family: 'Poppins', 'Times New Roman', Times, serif;
+font-style: normal;
+position: absolute;
+left: 125px;
+width: 168px;
+height: 58px;
+top: 520px;
+padding: 12px;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #396DF2;
+font-size: 20px;
+border: 1px solid #6070FF;
+border-radius: 8px;
 }
+
+.myresume:hover{
+  color: white;
+  background-color: blue;
+}
+
+
 a:-webkit-any-link{
   text-decoration: none;
 }
