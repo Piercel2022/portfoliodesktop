@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 @media screen and (min-width: 768px) {
   body {
     display: grid;
@@ -92,6 +91,10 @@ ul a {
   color: white;
 }
 
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
 #brand a {
   color: blue;
 }
@@ -106,7 +109,6 @@ ul {
 #hamburger-icon {
   display: block;
   margin: auto 0;
-  display: none;
   cursor: pointer;
 }
 
@@ -256,7 +258,7 @@ ul {
 
 .year {
   color: #7a869a;
-  font-family:'Poppins', Verdana, Tahoma, sans-serif;
+  font-family: 'Poppins', Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -331,12 +333,13 @@ ul {
   top: 86px;
   margin: 12px 0;
 }
-.role-card1{
+
+.role-card1 {
   font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-color: #6B778C;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6b778c;
 }
 
 .description_card1 {
@@ -475,7 +478,6 @@ color: #6B778C;
 .client_card2 {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: baseline;
   gap: 7px;
   align-items: baseline;
@@ -488,12 +490,13 @@ color: #6B778C;
   margin: 12px 0;
   font-size: 20px;
 }
-.role-card2{
+
+.role-card2 {
   font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-color: #6B778C;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6b778c;
 }
 
 .categories_card2 {
@@ -501,30 +504,15 @@ color: #6B778C;
   flex-wrap: nowrap;
   list-style: none;
   justify-content: flex-start;
+  position: absolute;
   padding: 0;
   gap: 10px;
   letter-spacing: 0.02em;
   width: 375px;
   height: 49px;
-  left: 114px;
-  top: 0;
-  margin-left: 16px;
-}
-
-.categories_card2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  position: absolute;
-  width: 446px;
-  justify-content: baseline;
-  flex-wrap: nowrap;
-  color: blue;
-  height: 24px;
-  left: 16px;
+  left: 24px;
   top: 240px;
-  align-self: flex-start;
+  margin-left: 16px;
 }
 
 .button_card2 {
@@ -540,7 +528,7 @@ color: #6B778C;
   line-height: 24px;
   width: 124px;
   height: 48px;
-  left: 26px;
+  left: 27px;
   top: 310px;
   color: blue;
   border-radius: 8px;
@@ -612,12 +600,13 @@ color: #6B778C;
   margin: 12px 0;
   font-size: 20px;
 }
-.role-card3{
-  color: #6B778C;
+
+.role-card3 {
+  color: #6b778c;
   font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .description_card3 {
@@ -744,10 +733,11 @@ line-height: 24px;
   margin: 12px 0;
   font-size: 20px;
 }
-.role-card4{
-  color: #6B778C;
+
+.role-card4 {
+  color: #6b778c;
   width: 140px;
- height: 24px;
+  height: 24px;
 }
 
 .description_card4 {
@@ -787,7 +777,6 @@ line-height: 24px;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
   line-height: 24px;
   width: 124px;
   height: 48px;
@@ -977,7 +966,7 @@ line-height: 24px;
   width: 124px;
   height: 48px;
   left: 0;
-  top: calc(50% - 48px/2);
+  top: calc(50% - 48px / 2);
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
@@ -1082,7 +1071,6 @@ line-height: 24px;
   font-size: 20px;
   line-height: 24px;
   color: #396df2;
-  font-size: 20px;
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
@@ -1090,10 +1078,6 @@ line-height: 24px;
 .myresume:hover {
   color: white;
   background-color: blue;
-}
-
-a:-webkit-any-link {
-  text-decoration: none;
 }
 
 .frame-languages {
@@ -1147,7 +1131,6 @@ a:-webkit-any-link {
   width: 50%;
   height: 1px;
   display: inline-flex;
-  width: 50%;
   justify-content: center;
   position: absolute;
   top: 450px;
@@ -1200,8 +1183,8 @@ a:-webkit-any-link {
   position: absolute;
   width: 801px;
   height: 56px;
-  left: 559px;
-  bottom: 610px;
+  left: 649px;
+  bottom: 670px;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 700;
@@ -1235,7 +1218,6 @@ a:-webkit-any-link {
   border-radius: 2px;
   background: #fff;
   border: 2px solid #cfd8dc;
-  border-radius: 2px;
 }
 
 #mail {
@@ -1243,7 +1225,6 @@ a:-webkit-any-link {
   position: absolute;
   left: 559px;
   bottom: 410px;
-  border-radius: 2px;
   padding: 15px 38px 15px 16px;
   width: 447px;
   height: 48px;
@@ -1255,7 +1236,6 @@ a:-webkit-any-link {
   position: absolute;
   left: 559px;
   bottom: 480px;
-  border-radius: 2px;
   padding: 15px 38px 15px 16px;
   width: 447px;
   height: 48px;
@@ -1265,10 +1245,10 @@ a:-webkit-any-link {
 
 .presentation_contactme {
   position: absolute;
-  width: 569px;
-  height: 102px;
+  width: 419px;
+  height: 108px;
   left: 559px;
-  bottom: 500px;
+  bottom: 540px;
   color: #ebebff;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-weight: 400;
@@ -1282,7 +1262,7 @@ a:-webkit-any-link {
   width: 129px;
   height: 129px;
   left: 1237px;
-  bottom: 550px;
+  bottom: 617px;
   background-image: url(/images/Ellipse3_contactme.svg);
   background-repeat: no-repeat;
 }
@@ -1302,7 +1282,7 @@ a:-webkit-any-link {
   width: 107.2px;
   height: 94.7px;
   left: 1211.59px;
-  bottom: 623px;
+  bottom: 693px;
   background-image: url(/images/Rectangle4_contactme.svg);
   background-repeat: no-repeat;
 }
@@ -1311,8 +1291,8 @@ a:-webkit-any-link {
   position: absolute;
   width: 48px;
   height: 48px;
-  left: 111.53px;
-  bottom: 300px;
+  left: 90.53px;
+  bottom: 313px;
   background-image: url(/images/Ellipse5_contactme.svg);
   background-repeat: no-repeat;
 }
